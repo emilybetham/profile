@@ -1,0 +1,66 @@
+body {
+  font-family: 'Muli', sans-serif;
+  background-color: #e8e1e1;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+   border-top: 1px white;
+   border-radius: 30px;
+   background-color: #efe8e8;
+   padding: 20px;
+   box-shadow: 1px 3px 20px #d3cdcd;
+   margin: 10px;
+}
+
+h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+}
+
+ul {
+  list-style: none ;
+}
+
+/*ul > li > a {
+  text-decoration: none;
+  color: grey;*/
+}
+
+table {
+  text-align: left;
+}
+
+#headshot {
+  object-fit: cover;
+  object-position: 20% 20%; /* default value: image is centered*/
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  /*  width: 147px;
+  height: 189px;
+  border-radius: 150px;*/
+}
+
+.artist-photos {
+  width: 147px;
+  height: 189px;
+  border-radius: 50px;
+}
