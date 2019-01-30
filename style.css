@@ -4,17 +4,17 @@ body {
 }
 
 .container {
-  width: 500px;   /* This sets the width */
+  width: 880px;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
 }
 
 .card {
-   border-top: 1px white;
-   border-radius: 30px;
-   background-color: #efe8e8;
-   padding: 20px;
-   box-shadow: 1px 3px 20px #d3cdcd;
-   margin: 10px;
+    border-top: 1px white;
+    border-radius: 7px;
+    background-color: #efe8e8;
+    padding: 20px;
+    box-shadow: 1px 3px 5px #d3cdcd;
+    margin: 17px;
 }
 
 h1 {
@@ -45,6 +45,10 @@ ul {
 }
 
 table {
+  text-align: left;
+}
+
+p, h3 {
   text-align: left;
 }
 
